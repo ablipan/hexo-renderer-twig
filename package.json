@@ -1,24 +1,22 @@
 {
   "name": "hexo-renderer-twig",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "twig renderer plugin for Hexo",
   "main": "index",
   "scripts": {
     "eslint": "eslint .",
-    "jscs": "jscs .",
     "test": "mocha test/index.js",
-    "test-cov": "istanbul cover --print both _mocha -- test/index.js"
   },
   "directories": {
     "lib": "./lib"
   },
-  "repository": "hexojs/hexo-renderer-twig",
+  "repository": "ablipan/hexo-renderer-twig",
   "keywords": [
     "hexo",
     "twig",
     "renderer"
   ],
-  "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
+  "author": "ablipan",
   "license": "MIT",
   "dependencies": {
     "twig": "^0.8.9"
