@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-twig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "twig renderer plugin for Hexo",
   "main": "index",
   "scripts": {
@@ -10,7 +10,7 @@
   "directories": {
     "lib": "./lib"
   },
-  "repository": "ablipan/hexo-renderer-twig",
+  "repository": "https://github.com/ablipan/hexo-renderer-nunjucks",
   "keywords": [
     "hexo",
     "twig",
