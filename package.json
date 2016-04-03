@@ -19,6 +19,7 @@
   "author": "ablipan",
   "license": "MIT",
   "dependencies": {
+    "object-assign": "^4.0.1",
     "twig": "^0.8.9"
   },
   "devDependencies": {

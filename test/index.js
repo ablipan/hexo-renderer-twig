@@ -15,4 +15,17 @@ describe('Twig renderer', function() {
     }).should.eql('Hello world!');
   });
 
+ it('compile', function() {
+    var body = [
+      'Hello {{ name }}!'
+    ].join('\n');
+
+    var render = r.compile({
+      text: body
+    });
+
+    render({
+      name: 'world'
+    }).should.eql('Hello world!');
+  });
 });
