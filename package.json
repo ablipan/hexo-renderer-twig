@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-twig",
-  "version": "1.0.3",
+  "version": "1.13.3",
   "description": "twig renderer plugin for Hexo",
   "main": "index",
   "scripts": {
@@ -20,7 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "object-assign": "^4.0.1",
-    "twig": "^0.8.9"
+    "twig": "^1.13.3"
   },
   "devDependencies": {
     "chai": "^3.4.1",
