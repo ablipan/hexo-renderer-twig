@@ -15,7 +15,7 @@ describe('Twig renderer', function() {
     }).should.eql('Hello world!');
   });
 
- it('compile', function() {
+  it('compile', function() {
     var body = [
       'Hello {{ name }}!'
     ].join('\n');
