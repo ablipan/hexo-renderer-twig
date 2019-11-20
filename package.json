@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-twig",
-  "version": "1.13.3",
+  "version": "1.13.4",
   "description": "twig renderer plugin for Hexo",
   "main": "index",
   "scripts": {
